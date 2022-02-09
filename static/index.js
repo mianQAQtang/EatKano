@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '别逗我笑了.JPG';
+        if (cps <= 8) return '因为你是泛式的hero啊';
+        if (cps <= 10)  return '塔诺西！';
+        if (cps <= 15) return '泛式不想狂喜了';
+        return '你是不是暗恋大鼻子叔叔？';
     }
 
     function toStr(obj) {
